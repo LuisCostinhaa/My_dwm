@@ -1,0 +1,18 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+"font_face": "CaskaydiaMono Nerd Font Propo",
+	"font_size": 22,
+	"highlight_line": true,
+	"line_padding_bottom": 10,
+	/*"line_padding_bottom": 10,*/
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "GitHub Dark Legacy.sublime-color-scheme",
+	"dark_color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"light_color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+}

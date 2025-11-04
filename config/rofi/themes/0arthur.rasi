@@ -1,0 +1,89 @@
+/* ROUNDED THEME FOR ROFI */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+* {
+    font:   "CaskaydiaMono Nerd Font Propo 12";
+    background-color:   transparent;
+    text-color:         @foreground;
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+}
+
+window {
+    location: center;
+    anchor:   center;
+    width:          30%;
+    border-radius:  15px;
+    background-color:   @foreground;
+}
+
+mainbox {
+    padding:    12px;
+}
+
+inputbar {
+    background-color:   @background;
+    border-color:       @foreground;
+    border:         2px;
+    border-radius:  10px;
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ prompt, entry ];
+}
+
+prompt {
+    text-color: @foreground;
+    border: 6px 6px ;
+}
+
+entry {
+    placeholder:        "Search";
+    placeholder-color:  @foreground;
+    border: 6px 6px ;
+}
+
+message {
+    margin:             12px 0 0;
+    border-radius:      10px;
+    border-color:       @foreground;
+    background-color:   @background;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    background-color:   transparent;
+    margin:     12px 0 0;
+    lines:      10;
+    columns:    1;
+    fixed-height: false;
+}
+
+element {
+    padding:        8px 16px;
+    spacing:        18px;
+    border-radius:  10px;
+}
+
+element normal active {
+    text-color: @foreground;
+}
+
+element alternate active {
+    text-color: @foreground;
+}
+
+element selected normal, element selected active {
+    background-color:   @foreground;
+}
+
+element-icon {
+    size:           45;
+}
+
+element-text {
+    text-color: @foreground;
+}

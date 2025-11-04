@@ -1,0 +1,25 @@
+{
+	"extensions":
+	[
+		"txt",
+		"x86_64",
+		"grub",
+		"cfg",
+		"Configuracoes",
+		"locale",
+		".zshrc",
+		"1_instalar",
+		"sh",
+		"guia",
+		"zshrc",
+		"clean",
+		"dwm",
+		"Xresources",
+		"conf",
+		".xsession",
+		".xinitrc",
+		"ini",
+		"rasi",
+		"kdl",
+	],
+}

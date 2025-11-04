@@ -1,0 +1,14 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"tabLabelFontSize": 14,
+		"accent": "#4287f5",
+		"background": "#ff5877",
+		"foreground": "#74ff58",
+	},
+	"rules":
+	[
+		
+	]
+}
