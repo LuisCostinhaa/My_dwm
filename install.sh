@@ -95,5 +95,3 @@ sudo make clean install
 ####################	ZSH		####################
 sudo chsh -s /bin/zsh root
 chsh -s /bin/zsh ${MYHOSTNM}
-
-teste 2
